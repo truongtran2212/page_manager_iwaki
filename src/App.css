@@ -1,0 +1,115 @@
+/* .hidden {
+  visibility: hidden;
+}
+.content {
+  background: gray;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.showCamera {
+  height: 100svh;
+}
+
+.contentCamera {
+  padding-top: 2%;
+}
+
+.buttonCamera {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25%;
+}
+.contentImage {
+  margin: 50px 0 50px;
+}
+video {
+  width: 100%;
+  height: 100dvh;
+  position: fixed;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+.buttonClick
+  button.ant-btn.css-dev-only-do-not-override-i46qwz.ant-btn-primary.ant-btn-icon-only.btnCamera {
+  width: 56px;
+  height: 56px;
+}
+
+.ant-btn {
+  font-size: unset;
+  height: unset;
+  padding: unset;
+  border-radius: unset;
+}
+
+.ant-btn-default:not(:disabled):not(.ant-btn-disabled):active {
+  color: unset;
+  border-color: unset;
+}
+
+.btn-capture {
+  position: relative;
+  background-color: #fff;
+  border-radius: 4em;
+  font-size: 16px;
+  color: white;
+  padding: 0.8em 1.8em;
+  user-select: none;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  border: unset;
+}
+
+.btn-capture:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 4em;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+  box-shadow: 0 0 10px 20px white;
+}
+
+.btn-capture:active:after {
+  box-shadow: 0 0 0 0 white;
+  position: absolute;
+  border-radius: 4em;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.btn-capture:active {
+  top: 1px;
+}
+
+.btn-switch-camera:focus {
+  animation-name: switchCamera;
+  animation-duration: 0.6s;
+}
+
+@keyframes switchCamera {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+} */

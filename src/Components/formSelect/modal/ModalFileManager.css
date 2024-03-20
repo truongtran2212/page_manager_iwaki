@@ -1,0 +1,72 @@
+.ant-pagination .ant-pagination-item {
+  min-width: 28px;
+  height: 28px;
+  line-height: 26px;
+  margin: 0px 4px !important;
+}
+
+.ant-pagination .ant-pagination-jump-prev,
+.ant-pagination .ant-pagination-jump-next {
+  margin: 0;
+}
+
+.table-file-manage .ant-table-thead .ant-table-cell {
+  background-color: #231b9a0d;
+  color: var(--text-title-2, #394b76);
+  text-align: center;
+  /* font-family: Inter; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+
+.size-image .react-transform-wrapper {
+  width: auto;
+}
+
+.ant-modal.modal-detail .ant-modal-content {
+  padding: 16px 24px;
+  & .ant-modal-close {
+    top: 12px;
+  }
+}
+
+.load-image {
+  animation-name: loading-image;
+  animation-duration: 1s;
+  animation-iteration-count: infinite; /* Set to repeat indefinitely */
+}
+
+.thumbnail-class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+
+  & img {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    margin: 0px 10px;
+  }
+}
+
+@keyframes loading-image {
+  from {
+    /* pushes the sun down past the viewport */
+    transform: rotate(0deg);
+  }
+  to {
+    /* returns the sun to its default position */
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .ant-pagination .ant-pagination-item a {
+    display: block;
+    padding: 0px;
+    color: rgba(0, 0, 0, 0.88);
+  }
+}

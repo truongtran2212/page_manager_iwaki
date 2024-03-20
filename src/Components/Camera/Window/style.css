@@ -1,0 +1,64 @@
+/* .contentWindow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(128, 128, 128, 0.363);
+  height: 100vh;
+
+  .cameraWindow {
+    width: 100%;
+    margin-top: 5%;
+
+    .showCameraWindow {
+      height: auto;
+      margin-left: 5%;
+      z-index: 0;
+    }
+
+    video {
+      width: 95%;
+      height: auto;
+    }
+    .buttonCameraWindow {
+      z-index: 0;
+      margin-top: 5%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+
+  .contentImageWindow {
+    width: 100%;
+    margin-top: 5%;
+    .showImageWindow {
+      height: auto;
+      margin-left: 5%;
+      img {
+        width: 95%;
+        height: auto;
+      }
+    }
+    .ButtonImageWindow {
+      z-index: 0;
+      margin-top: 5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .ant-btn.ant-btn-icon-only {
+    width: 64px;
+    height: 64px;
+  }
+  button.ant-btn.css-dev-only-do-not-override-i46qwz.ant-btn-primary.ant-btn-icon-only.btnCamera {
+    border: 1px solid;
+    border-radius: 30px;
+  }
+
+}
+button.ant-btn.css-dev-only-do-not-override-i46qwz.ant-btn-primary.ant-btn-icon-only.btnUpload {
+  border: 1px solid;
+  border-radius: 30px;
+} */

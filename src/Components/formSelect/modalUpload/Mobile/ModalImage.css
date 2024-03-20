@@ -1,0 +1,437 @@
+.ant-modal.css-dev-only-do-not-override-i46qwz.ModalViewImage {
+  width: 55% !important;
+  top: 50px;
+  max-width: 100%;
+}
+.HeaderModal {
+  justify-content: space-between;
+  display: flex;
+  padding: 20px 20px 0;
+  padding-bottom: 35px;
+  align-items: center;
+}
+.imageGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;
+}
+.image-item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 48%;
+  margin-bottom: 10px;
+}
+img.imageSourceGalley {
+  width: 100%;
+  height: auto;
+}
+.inputRadio > input {
+  width: 18px;
+  height: 18px;
+  border: 1.5px;
+  box-sizing: border-box;
+
+  position: absolute;
+  top: 2%;
+  right: 4%;
+
+  background: rgba(200, 200, 200, 0.22);
+  border: 1.5px solid #ffffff;
+}
+
+/* .ant-modal-root .ant-modal {
+    top: 60px;
+    max-width: 100%;
+  } */
+.ModalViewImage .ant-modal-content {
+  height: 75svh;
+  max-height: 75svh;
+  padding: 0px;
+  border-radius: 0px;
+}
+
+.footerModal {
+  position: absolute;
+  width: 100%;
+  bottom: -5%;
+}
+/* .uploadButton {
+    position: absolute;
+    border-radius: 36px;
+    width: 36px;
+    height: 36px;
+    left: 0;
+  } */
+/* .checkBoxButton {
+    position: absolute;
+    border-radius: 32px;
+    border-radius: 36px;
+    width: 36px;
+    height: 36px;
+    right: 0;
+  } */
+
+.divUploadBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  left: 16px;
+  .uploadButton {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .uploadButton img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.divCheckbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  right: 42px;
+  .checkBoxButton {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .checkBoxButton img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.FooterDeleteImage {
+  width: 100%;
+}
+.buttonDeleteImage {
+  position: absolute;
+  width: 100%;
+  height: 51px;
+  padding: 8px, 50px, 8px, 50px;
+
+  bottom: 0;
+  background: #5fc9ab;
+  border: none;
+}
+.textButtonDelete {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -0.40799999237060547px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.ModalDeleteImages .ant-modal-body {
+  text-align: center;
+  .TitleDeleteImage {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+  }
+  .ButtonDeleteModal {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 25px;
+    padding: 5px, 0px, 2px, 0px;
+    /* border-radius: 24px; */
+  }
+  .ButtonDeleteAll {
+    width: 100%;
+    border: none;
+    background: #ffffff;
+  }
+}
+.buttonCloseModalView {
+  /* icon */
+
+  width: 30px;
+  height: 30px;
+
+  /* Text Title/7 */
+  background: none;
+  border-radius: 8px;
+  border: none;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.spanTitleHeader {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.408px;
+
+  color: #262626;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.spanTitleChoose {
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  border: none;
+  background: transparent;
+}
+.spanTitleChoose > span {
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.40799999237060547px;
+  text-align: center;
+}
+
+@media (max-width: 767.98px) {
+  .ant-modal.css-dev-only-do-not-override-i46qwz.ModalViewImage {
+    width: 100% !important;
+    top: 60px;
+    max-width: 100%;
+  }
+  .HeaderModal {
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 20px 0;
+    padding-bottom: 35px;
+    align-items: center;
+  }
+  .imageGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+  }
+  .image-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 48%;
+    margin-bottom: 10px;
+  }
+  img.imageSourceGalley {
+    width: 100%;
+    height: auto;
+  }
+  .inputRadio > input {
+    width: 18px;
+    height: 18px;
+    border: 1.5px;
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 2%;
+    right: 4%;
+
+    background: rgba(200, 200, 200, 0.22);
+    border: 1.5px solid #ffffff;
+  }
+
+  /* .ant-modal-root .ant-modal {
+      top: 60px;
+      max-width: 100%;
+    } */
+  .ModalViewImage .ant-modal-content {
+    height: 75svh;
+    max-height: 75svh;
+    padding: 0px;
+    border-radius: 0px;
+  }
+
+  .footerModal {
+    position: absolute;
+    width: 100%;
+    bottom: -5%;
+  }
+  /* .uploadButton {
+      position: absolute;
+      border-radius: 36px;
+      width: 36px;
+      height: 36px;
+      left: 0;
+    } */
+  /* .checkBoxButton {
+      position: absolute;
+      border-radius: 32px;
+      border-radius: 36px;
+      width: 36px;
+      height: 36px;
+      right: 0;
+    } */
+
+  .divUploadBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    left: 16px;
+    .uploadButton {
+      display: inline-block;
+      border-radius: 50%;
+      overflow: hidden;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .uploadButton img {
+      display: block;
+      margin: auto;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  .divCheckbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    right: 42px;
+    .checkBoxButton {
+      display: inline-block;
+      border-radius: 50%;
+      overflow: hidden;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .checkBoxButton img {
+      display: block;
+      margin: auto;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  .FooterDeleteImage {
+    width: 100%;
+  }
+  .buttonDeleteImage {
+    position: absolute;
+    width: 100%;
+    height: 51px;
+    padding: 8px, 50px, 8px, 50px;
+
+    bottom: 0;
+    background: #5fc9ab;
+    border: none;
+  }
+  .textButtonDelete {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.40799999237060547px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .ModalDeleteImages .ant-modal-body {
+    text-align: center;
+    .TitleDeleteImage {
+      font-family: Lato;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0.20000000298023224px;
+    }
+    .ButtonDeleteModal {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 25px;
+      padding: 5px, 0px, 2px, 0px;
+      /* border-radius: 24px; */
+    }
+    .ButtonDeleteAll {
+      width: 100%;
+      border: none;
+      background: #ffffff;
+    }
+  }
+  .buttonCloseModalView {
+    /* icon */
+
+    width: 30px;
+    height: 30px;
+
+    /* Text Title/7 */
+    background: none;
+    border-radius: 8px;
+    border: none;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .spanTitleHeader {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.408px;
+
+    color: #262626;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .spanTitleChoose {
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    border: none;
+    background: transparent;
+  }
+  .spanTitleChoose > span {
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.40799999237060547px;
+    text-align: center;
+  }
+}
